@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2026-07-04)
+
+
+### Features
+
+* trantbox-desktop ([49cecf4](https://github.com/TranThangBin/boxkit-trantbox/commit/49cecf4de5e8e40ab512eff86be0bbce1449f486))
+
 ## [1.2.0](https://github.com/ublue-os/boxkit/compare/v1.1.0...v1.2.0) (2025-01-04)
 
 
