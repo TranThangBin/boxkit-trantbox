@@ -1,0 +1,13 @@
+FROM docker.io/cachyos/cachyos-v3:latest
+
+# Copy the setup scripts and package list
+COPY ../scripts/trantbox-base.sh /
+COPY ../scripts/trantbox-desktop.sh /
+COPY ../scripts/distrobox-shims.sh /
+COPY ../packages/trantbox-desktop.packages /
+
+# Run the setup scripts
+RUN chmod +x trantbox-base.sh trantbox-desktop.sh distrobox-shims.sh && /trantbox-desktop.sh
+RUN rm /trantbox-base.sh /trantbox-desktop.sh /distrobox-shims.sh /trantbox-desktop.packages
+
+# vim: set ft=dockerfile :
