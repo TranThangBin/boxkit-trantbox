@@ -28,6 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         containerfile:
+          - trantbox-base
           - trantbox-desktop
           # - boxkit
        #- fedora-example # Included as an example to demonstrate multi-image builds, uncomment to build the fedora-example container too
