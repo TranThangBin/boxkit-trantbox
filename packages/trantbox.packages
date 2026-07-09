@@ -39,6 +39,7 @@ vte-common
 vulkan-intel
 vulkan-radeon
 wget
+wget
 words
 xorg-xauth
 yay
