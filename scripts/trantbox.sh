@@ -2,7 +2,7 @@
 
 ./distrobox-shims.sh
 
-grep -v "^#" ./trantbox-base.packages | xargs pacman -Syyu --needed --noconfirm
+grep -v "^#" ./trantbox.packages | xargs pacman -Syyu --needed --noconfirm
 
 wget https://raw.githubusercontent.com/Shringe/LatencyFleX-Installer/main/install.sh -O /usr/bin/latencyflex
 sed -i 's@"dxvk.conf"@"/usr/share/latencyflex/dxvk.conf"@g' /usr/bin/latencyflex
