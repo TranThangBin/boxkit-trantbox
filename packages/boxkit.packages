@@ -1,7 +1,7 @@
 age
 atuin
-btop
 bat
+btop
 chezmoi
 clipboard
 cosign
@@ -25,6 +25,7 @@ ripgrep
 speedtest-cli
 starship
 vimdiff
+wine
 wl-clipboard
 zellij
 zstd
