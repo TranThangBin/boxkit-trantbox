@@ -12,6 +12,7 @@ inetutils
 iputils
 keyutils
 less
+libnotify
 lsof
 man-db
 man-pages
@@ -20,9 +21,14 @@ mlocate
 mtr
 ncurses
 nss-mdns
+openal
 openssh
 pigz
 pinentry
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
 procps-ng
 rsync
 shadow
@@ -39,6 +45,8 @@ vte-common
 vulkan-intel
 vulkan-radeon
 wget
+wireplumber
+wl-clipboard
 words
 xorg-xauth
 yay
