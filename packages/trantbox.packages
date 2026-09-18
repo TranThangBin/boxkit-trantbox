@@ -17,6 +17,7 @@ lsof
 man-db
 man-pages
 mesa
+mesa-utils
 mlocate
 mtr
 ncurses
@@ -44,6 +45,7 @@ util-linux-libs
 vte-common
 vulkan-intel
 vulkan-radeon
+vulkan-tools
 wget
 wireplumber
 wl-clipboard
